@@ -7,10 +7,6 @@
 
 This repository contains the **Minimum Viable Organism (MVO)** of the Aicent Stack. It demonstrates a complete, indivisible closed-loop system where perception, reasoning, security, valuation, and action operate as a single metabolic entity.
 
-[![License](https://shields.io)](https://opensource.org)
-[![Reflex Speed](https://shields.io)](#)
-[![Indivisible](https://shields.io)](#)
-
 ---
 
 ## 🛠️ The Five Organs in Action
