@@ -47,8 +47,6 @@ cargo run
 🩸 [ZCMK]  血液代谢 | 算力即时结算完成 | 价值消耗: $0.000034
 🦾 [GTIOT] 肌肉执行 | 闭环收尾: Active Damping Engaged.
 
-🤖 [GTIOT] 躯体感知 | 节点 882 震动频率异常: [42.7, -0.3, 981.2] ⚡ [RTTP] 神经传输 | 语义多播同步完成 | 耗时: 420µs (Zero-Latency Sync) 🛡️ [RPKI] 免疫反应 | 身份验证成功 ✅ | 水印标记: RPKI-WT-77a2... 🧠 [AICENT] 大脑决策 | 任务分解: 执行边缘阻尼反馈控制 🩸 [ZCMK] 血液代谢 | 算力即时结算完成 | 价值消耗: $0.000034 🦾 [GTIOT] 肌肉执行 | 闭环收尾: Active Damping Engaged.
-
 ORGANISM PERFORMANCE ⏱️ 神经反射总延迟 (E2E): 842.15µs 📊 细分损耗: RTTP(420µs) | RPKI(12µs) | ZCMK(8µs) ✅ 结论: 系统处于 Homeostasis (生物稳态)，无 Middleman-Tax 损耗。
 
 ## 🏗️ Architecture: Why Indivisible?
