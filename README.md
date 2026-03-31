@@ -15,11 +15,11 @@ Unlike legacy "Dumb Pipes" or "Anemic DePIN," the Aicent Stack operates through 
 
 | Organ | Domain | Role in this Demo | Performance Target |
 | :--- | :--- | :--- | :--- |
-| **Brain** | [Aicent.com](https://aicent.com) | Task decomposition & cognitive scheduling | Autonomous Reasoning |
-| **Nerves** | [RTTP.com](https://rttp.com) | Stateful semantic multicast & KV sync | **< 420 µs** Latency |
-| **Immunity** | [RPKI.com](https://rpki.com) | Parallel tensor watermarking & hijacking isolation | **< 300 µs** Quarantine |
-| **Blood** | [ZCMK.com](https://zcmk.com) | Nanosecond RTBA zero-commission auctions | **< 1 ms** Finality |
-| **Body** | [GTIOT.com](https://gtiot.com) | High-fidelity edge fusion & Action-Collapse | **1.2B+** Trusted Nodes |
+| **Brain** | [Aicent.com](http://aicent.com) | Task decomposition & cognitive scheduling | Autonomous Reasoning |
+| **Nerves** | [RTTP.com](http://rttp.com) | Stateful semantic multicast & KV sync | **< 420 µs** Latency |
+| **Immunity** | [RPKI.com](http://rpki.com) | Parallel tensor watermarking & hijacking isolation | **< 300 µs** Quarantine |
+| **Blood** | [ZCMK.com](http://zcmk.com) | Nanosecond RTBA zero-commission auctions | **< 1 ms** Finality |
+| **Body** | [GTIOT.com](http://gtiot.com) | High-fidelity edge fusion & Action-Collapse | **1.2B+** Trusted Nodes |
 
 ---
 
