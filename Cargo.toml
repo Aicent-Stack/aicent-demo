@@ -1,0 +1,15 @@
+[package]
+name = "aicent-demo"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Complete closed-loop demo for Aicent Stack — full five-in-one sovereign AI lifeform cycle"
+
+[dependencies]
+aicent.workspace = true
+rttp.workspace = true
+rpki.workspace = true
+zcmk.workspace = true
+gtiot.workspace = true
