@@ -54,8 +54,8 @@ cargo run
 ====================================================================
 
 ## 🏗️ Architecture: Why Indivisible?
-Running these domains separately inherits the Middleman-Ridden Corpse of legacy cloud. The Aicent Stack ensures:
-No Latency Tax: Direct hardware-to-logic mapping via RTTP.
-Zero Commission: ZCMK enables micro-settlement without parasitic fees.
-Biological Security: RPKI treats malicious pulses as pathogens, not just errors.
-© 2026 Aicent.com Organization. Built with Rust for the Sovereign AI Era.
+- Running these domains separately inherits the Middleman-Ridden Corpse of legacy cloud. The Aicent Stack ensures:
+- No Latency Tax: Direct hardware-to-logic mapping via RTTP.
+- Zero Commission: ZCMK enables micro-settlement without parasitic fees.
+- Biological Security: RPKI treats malicious pulses as pathogens, not just errors.
+- © 2026 Aicent.com Organization. Built with Rust for the Sovereign AI Era.
