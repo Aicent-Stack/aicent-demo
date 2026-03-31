@@ -1,5 +1,4 @@
-# 🧪 aicent-demo
-## 🧬 Aicent Stack: The Sovereign AI Organism (Demo)
+# 🧬🧪 Aicent Stack: The Sovereign AI Organism (Demo)
 
 完整演示五位一体主权 AI 生命体闭环（882号边缘节点振动异常案例）
 
@@ -55,7 +54,9 @@ cargo run
 ✅ 结论: 系统处于 Homeostasis (生物稳态)，无 Middleman-Tax 损耗。
 ====================================================================
 
-🏗️ Architecture: Why Indivisible?
+``
+
+## 🏗️ Architecture: Why Indivisible?
 Running these domains separately inherits the Middleman-Ridden Corpse of legacy cloud. The Aicent Stack ensures:
 No Latency Tax: Direct hardware-to-logic mapping via RTTP.
 Zero Commission: ZCMK enables micro-settlement without parasitic fees.
