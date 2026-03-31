@@ -54,8 +54,6 @@ cargo run
 ✅ 结论: 系统处于 Homeostasis (生物稳态)，无 Middleman-Tax 损耗。
 ====================================================================
 
-``
-
 ## 🏗️ Architecture: Why Indivisible?
 Running these domains separately inherits the Middleman-Ridden Corpse of legacy cloud. The Aicent Stack ensures:
 No Latency Tax: Direct hardware-to-logic mapping via RTTP.
