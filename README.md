@@ -48,7 +48,7 @@ cargo run
 🦾 [GTIOT] 肌肉执行 | 闭环收尾: Active Damping Engaged.
 
  ORGANISM PERFORMANCE
-⏱️  神经反射总延迟 (E2E): 842.15µs
+⏱️ 神经反射总延迟 (E2E): 842.15µs
 📊 细分损耗: RTTP(420µs) | RPKI(12µs) | ZCMK(8µs)
 ✅ 结论: 系统处于 Homeostasis (生物稳态)，无 Middleman-Tax 损耗。
 --------------------------------------------------------------------
