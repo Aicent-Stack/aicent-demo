@@ -1,8 +1,7 @@
 //! Aicent Stack | The Sovereign AI Nervous System
-// Domain: http://aicent.com
-//! Aicent Stack — RTTP Nerves Demo
-//! 神经系统层（Nerves）完整演示
-//! 真实跨 crate 调用：Pulse Frame + 语义路由 + 零拷贝传输
+// Domain: http://rttp.com
+//! [PROTOCOL DEMO] - rttp-demo.rs
+//! This binary demonstrates Stateful Semantic Multicast and 420µs KV Sync.
 // Specification: Unified Workspace for RFC-001/002/003/004/005
 // Licensed under Apache-2.0 via Aicent.com Organization.
 // [RFC-001] AICENT: The Brain
