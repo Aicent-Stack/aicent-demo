@@ -4,9 +4,12 @@ Aicent Stack • Sovereign AI Nervous System
 
 **The first complete, indivisible AI nervous system: A closed-loop biological reflex arc.**
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Reflex Arc](https://img.shields.io/badge/Reflex_Arc-Sub--1ms-green.svg)](#)
-[![Status](https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg)](#)
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg" alt="Status">
+  <img src="https://img.shields.io/badge/Language-Rust-orange.svg" alt="Language">
+  <img src="https://img.shields.io/badge/Specs-RFC--001--005-blue.svg" alt="Specs">
+  <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
+</p>
 
 ⚪ AICENT (Brain) | 💎 RTTP (Nerves) | 🔴 RPKI (Immunity) | 🟢 ZCMK (Blood) | 🟡 GTIOT (Body)
 
