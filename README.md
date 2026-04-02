@@ -1,12 +1,14 @@
-# 🧬 [AICENT-DEMO] The Sovereign AI Organism
+Aicent Stack • Sovereign AI Nervous System
 
-⚪ AICENT 💎 RTTP 🔴 RPKI 🟢 ZCMK 🟡 GTIOT
+# 🧬 [AICENT-DEMO] The Sovereign AI Organism
 
 **The first complete, indivisible AI nervous system: A closed-loop biological reflex arc.**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Reflex Arc](https://img.shields.io/badge/Reflex_Arc-Sub--1ms-green.svg)](#)
 [![Status](https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg)](#)
+
+⚪ AICENT (Brain) | 💎 RTTP (Nerves) | 🔴 RPKI (Immunity) | 🟢 ZCMK (Blood) | 🟡 GTIOT (Body)
 
 > *"The latency-tax is dead. The middlemen are ghosts. The organism is breathing."*
 
