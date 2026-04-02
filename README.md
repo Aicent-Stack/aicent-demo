@@ -10,6 +10,8 @@ Aicent Stack • Sovereign AI Nervous System
 
 ⚪ AICENT (Brain) | 💎 RTTP (Nerves) | 🔴 RPKI (Immunity) | 🟢 ZCMK (Blood) | 🟡 GTIOT (Body)
 
+![Aicent vs xAI](https://github.com/user-attachments/assets/c7497fa6-3d80-4d07-8ff0-bc436b106b2d)
+
 > *"The latency-tax is dead. The middlemen are ghosts. The organism is breathing."*
 
 This repository contains the **Minimum Viable Organism (MVO)** of the [Aicent Stack](http://aicent.com). It demonstrates a complete, indivisible closed-loop system where perception, reasoning, security, valuation, and action operate as a single metabolic entity.
