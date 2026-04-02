@@ -8,7 +8,7 @@
 
 > *"The latency-tax is dead. The middlemen are ghosts. The organism is breathing."*
 
-This repository contains the **Minimum Viable Organism (MVO)** of the [Aicent Stack](https://aicent.com). It demonstrates a complete, indivisible closed-loop system where perception, reasoning, security, valuation, and action operate as a single metabolic entity.
+This repository contains the **Minimum Viable Organism (MVO)** of the [Aicent Stack](http://aicent.com). It demonstrates a complete, indivisible closed-loop system where perception, reasoning, security, valuation, and action operate as a single metabolic entity.
 
 ---
 
