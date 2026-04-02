@@ -1,8 +1,7 @@
 //! Aicent Stack | The Sovereign AI Nervous System
-// Domain: http://aicent.com
-//! Aicent Stack — ZCMK Blood Demo
-//! 零佣金 DePIN 算力市场 + 价值流转完整演示
-//! 真实跨 crate 调用闭环（RTTP 触发需求 → RPKI 验证 → ZCMK 拍卖结算）
+// Domain: http://zcmk.com
+//! [PROTOCOL DEMO] - zcmk-demo.rs
+//! This binary demonstrates Nanosecond RTBA Auctions and Micro-settlement logic.
 // Specification: Unified Workspace for RFC-001/002/003/004/005
 // Licensed under Apache-2.0 via Aicent.com Organization.
 // [RFC-001] AICENT: The Brain
