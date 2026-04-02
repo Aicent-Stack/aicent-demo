@@ -1,7 +1,7 @@
 //! Aicent Stack | The Sovereign AI Nervous System
-//! Aicent Stack Complete Closed-Loop Demo
-//! 真实跨 crate 调用：GTIOT → RTTP → RPKI → Aicent → ZCMK → GTIOT + 结构化输出 + 错误处理
-// Domain: http://aicent.com
+// Domain: http://rpki.com
+//! [PROTOCOL DEMO] - rpki-demo.rs
+//! This binary demonstrates Parallel Tensor Watermarking and 300µs Hijack Isolation.
 // Specification: Unified Workspace for RFC-001/002/003/004/005
 // Licensed under Apache-2.0 via Aicent.com Organization.
 // [RFC-001] AICENT: The Brain
