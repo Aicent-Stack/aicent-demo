@@ -7,9 +7,51 @@ license.workspace = true
 repository.workspace = true
 description = "Complete closed-loop demo for Aicent Stack — full five-in-one sovereign AI lifeform cycle"
 
+# ====================================================================
+# [BINARIES] - 5-in-1 Organism Demo Suite
+# Each binary represents a specific organ or the master organism.
+# ====================================================================
+
+# [RFC-001] AICENT: The Brain (Master Commander)
+[[bin]]
+name = "aicent-organism"
+path = "src/bin/aicent-organism.rs"
+
+# [RFC-002] RTTP: The Nerves
+[[bin]]
+name = "rttp-demo"
+path = "src/bin/rttp-demo.rs"
+
+# [RFC-003] RPKI: The Immunity
+[[bin]]
+name = "rpki-demo"
+path = "src/bin/rpki-demo.rs"
+
+# [RFC-004] ZCMK: The Blood
+[[bin]]
+name = "zcmk-demo"
+path = "src/bin/zcmk-demo.rs"
+
+# [RFC-005] GTIOT: The Body
+[[bin]]
+name = "gtiot-demo"
+path = "src/bin/gtiot-demo.rs"
+
+# ====================================================================
+# [DEPENDENCIES] - Linked via Workspace
+# ====================================================================
+
 [dependencies]
+# Core Organs from Workspace
 aicent.workspace = true
 rttp.workspace = true
 rpki.workspace = true
 zcmk.workspace = true
 gtiot.workspace = true
+
+# Standard Utilities (Assuming these are defined in your root workspace)
+anyhow.workspace = true
+tokio = { workspace = true, features = ["full"] }
+
+[dev-dependencies]
+# Put any testing tools here if needed in the future
