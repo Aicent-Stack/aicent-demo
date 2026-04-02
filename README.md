@@ -14,15 +14,15 @@ This repository contains the **Minimum Viable Organism (MVO)** of the [Aicent St
 
 ## 🏗️ The Biological Architecture (RFC Suite)
 
-The Aicent Stack replaces "Dumb Pipes" with **Living Homeostasis**. Each organ is defined by a specific RFC and can be tested individually or as a unified whole.
+The Aicent Stack replaces "Dumb Pipes" with **Living Homeostasis**. Each organ is defined by a specific RFC protocol and can be tested individually or as a unified whole.
 
 | RFC | Organ | Domain | Role in the Organism | Performance |
 | :--- | :--- | :--- | :--- | :--- |
-| **[RFC-001]** | **Brain** | [Aicent.com](http://aicent.com) | Task decomposition & cognitive scheduling | **Autonomous Reasoning** |
-| **[RFC-002]** | **Nerves** | [RTTP.com](http://rttp.com) | Stateful semantic multicast & KV sync | **< 420 µs** Latency |
-| **[RFC-003]** | **Immunity**| [RPKI.com](http://rpki.com) | Parallel tensor watermarking & isolation | **< 300 µs** Quarantine |
-| **[RFC-004]** | **Blood** | [ZCMK.com](http://zcmk.com) | Nanosecond RTBA zero-commission auctions | **< 1 ms** Finality |
-| **[RFC-005]** | **Body** | [GTIOT.com](http://gtiot.com) | High-fidelity edge fusion & Action-Collapse | **1.2B+** Trusted Nodes |
+| [**[RFC-001]**](https://github.com/Aicent-Stack/manifesto/blob/main/rfcs/RFC-001-AICENT-BRAIN.md) | **Brain** | [Aicent.com](http://aicent.com) | Task decomposition & cognitive scheduling | **Autonomous Reasoning** |
+| [**[RFC-002]**](https://github.com/Aicent-Stack/manifesto/blob/main/rfcs/RFC-002-RTTP-NERVES.md) | **Nerves** | [RTTP.com](http://rttp.com) | Stateful semantic multicast & KV sync | **< 420 µs** Latency |
+| [**[RFC-003]**](https://github.com/Aicent-Stack/manifesto/blob/main/rfcs/RFC-003-RPKI-IMMUNITY.md) | **Immunity**| [RPKI.com](http://rpki.com) | Parallel tensor watermarking & isolation | **< 300 µs** Quarantine |
+| [**[RFC-004]**](https://github.com/Aicent-Stack/manifesto/blob/main/rfcs/RFC-004-ZCMK-BLOOD.md) | **Blood** | [ZCMK.com](http://zcmk.com) | Nanosecond RTBA zero-commission auctions | **< 1 ms** Finality |
+| [**[RFC-005]**](https://github.com/Aicent-Stack/manifesto/blob/main/rfcs/RFC-005-GTIOT-BODY.md) | **Body** | [GTIOT.com](http://gtiot.com) | High-fidelity edge fusion & Action-Collapse | **1.2B+** Trusted Nodes |
 
 ---
 
@@ -41,10 +41,10 @@ cargo run --bin aicent-organism
 ### 2. Test Individual Organs
 You can also trigger specific organ protocols for specialized testing:
 ```bash
-cargo run --bin rttp-demo    # Test Semantic Nerves
-cargo run --bin rpki-demo    # Test Immune Defense
-cargo run --bin zcmk-demo    # Test Circulatory Settlement
-cargo run --bin gtiot-demo   # Test Sensory-Motor Loop
+cargo run --bin rttp-demo    # Test Semantic Nerves (RFC-002)
+cargo run --bin rpki-demo    # Test Immune Defense (RFC-003)
+cargo run --bin zcmk-demo    # Test Circulatory Settlement (RFC-004)
+cargo run --bin gtiot-demo   # Test Sensory-Motor Loop (RFC-005)
 ```
 
 ---
