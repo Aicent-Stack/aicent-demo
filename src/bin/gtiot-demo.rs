@@ -1,7 +1,7 @@
 //! Aicent Stack | The Sovereign AI Nervous System
-// Domain: http://aicent.com
-//! Aicent Stack — GTIOT Body Demo (Optimized)
-//! 具身执行层完整演示 + 丰富日志 + 错误分支
+// Domain: http://gtiot.com
+//! [PROTOCOL DEMO] - gtiot-demo.rs
+//! This binary demonstrates High-fidelity Edge Fusion and Action-Collapse Execution.
 // Specification: Unified Workspace for RFC-001/002/003/004/005
 // Licensed under Apache-2.0 via Aicent.com Organization.
 // [RFC-001] AICENT: The Brain
@@ -9,6 +9,7 @@
 // [RFC-003] RPKI:   The Immunity
 // [RFC-004] ZCMK:   The Blood
 // [RFC-005] GTIOT:  The Body
+
 use anyhow::{Context, Result};
 use rand::Rng;
 use aicent::brain::Brain;
