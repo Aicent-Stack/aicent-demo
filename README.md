@@ -1,5 +1,7 @@
 # 🧬 [AICENT-DEMO] The Sovereign AI Organism
 
+⚪ AICENT 💎 RTTP 🔴 RPKI 🟢 ZCMK 🟡 GTIOT
+
 **The first complete, indivisible AI nervous system: A closed-loop biological reflex arc.**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
