@@ -1,15 +1,19 @@
 [package]
 name = "aicent-demo"
+description = "Integrated simulation suite for the Aicent Stack: A six-domain sovereign AI organism and collective hive mind."
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
-description = "Complete closed-loop demo for Aicent Stack — full five-in-one sovereign AI lifeform cycle"
+homepage = "https://aicent.com/Demo/"
+documentation = "https://github.com/Aicent-Stack/manifesto"
+keywords = ["ai-demo", "sovereign-ai", "reflex-arc", "swarm-intelligence", "rfc-standard"]
+categories = ["simulation", "network-programming", "robotics"]
 
 # ====================================================================
-# [BINARIES] - 5-in-1 Organism Demo Suite
-# Each binary represents a specific organ or the master organism.
+# [BINARIES] - 6-Domain Organism & Hive Simulation Suite
+# Each binary demonstrates a specific RFC protocol or the unified organism.
 # ====================================================================
 
 # [RFC-001] AICENT: The Brain (Master Commander)
@@ -37,21 +41,30 @@ path = "src/bin/zcmk-demo.rs"
 name = "gtiot-demo"
 path = "src/bin/gtiot-demo.rs"
 
+# [RFC-006] AICENT-NET: The Hive (Collective Mind)
+[[bin]]
+name = "aicent-net-demo"
+path = "src/bin/aicent-net-demo.rs"
+
 # ====================================================================
-# [DEPENDENCIES] - Linked via Workspace
+# [DEPENDENCIES] - Linked via Unified Workspace DNA
 # ====================================================================
 
 [dependencies]
-# Core Organs from Workspace
+# Core Organs (The 6 Pillars of Sovereignty)
 aicent.workspace = true
 rttp.workspace = true
 rpki.workspace = true
 zcmk.workspace = true
 gtiot.workspace = true
+aicent-net.workspace = true
 
-# Standard Utilities (Assuming these are defined in your root workspace)
+# Integrated Utilities for High-Fidelity Simulation
 anyhow.workspace = true
 tokio = { workspace = true, features = ["full"] }
+tracing.workspace = true      # For real-time telemetry logs
+rand.workspace = true         # For simulating hijack/attack scenarios
 
 [dev-dependencies]
-# Put any testing tools here if needed in the future
+# Benchmarking tools for sub-ms validation
+criterion = "0.5"
