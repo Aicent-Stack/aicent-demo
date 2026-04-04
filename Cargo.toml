@@ -10,7 +10,7 @@ homepage = "http://aicent.com/Demo/"
 documentation = "https://github.com/Aicent-Stack/manifesto"
 keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "128-bit-atomic", "rfc-standard"]
 categories = ["development-tools", "simulation", "robotics", "network-programming"]
-rust-version = "1.75"
+rust-version = "1.85"
 
 # ====================================================================
 # [BINARIES] - The Six-Domain Organism & Hive Command Suite
