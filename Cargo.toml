@@ -2,15 +2,15 @@
 name = "aicent-demo"
 description = "Aicent Stack: Integrated Simulation Suite for the Six-Domain Sovereign AI Organism."
 version.workspace = true
-edition.workspace = true
-authors.workspace = true
-license.workspace = true
-repository.workspace = true
+edition = "2024" # Explicitly set edition to 2024 for consistency
+authors = ["Aicent Stack Team <lee@aicent.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/Aicent-Stack/aicent-demo" # Point to its own independent repository
 homepage = "http://aicent.com/Demo/"
 documentation = "https://github.com/Aicent-Stack/manifesto"
 keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "128-bit-atomic", "rfc-standard"]
 categories = ["development-tools", "simulation", "robotics", "network-programming"]
-rust-version = "1.85"
+rust-version = "1.85" # Explicitly set rust-version to 1.85 for consistency
 
 # ====================================================================
 # [BINARIES] - The Six-Domain Organism & Hive Command Suite
@@ -53,13 +53,13 @@ path = "src/bin/aicent-net-demo.rs"
 # ====================================================================
 
 [dependencies]
-# Core Sovereign Domains
-aicent     = { workspace = true }
-rttp       = { workspace = true }
-rpki       = { workspace = true }
-zcmk       = { workspace = true }
-gtiot      = { workspace = true }
-aicent-net = { workspace = true }
+# Core Sovereign Domains - All explicitly enable 'std' for full compatibility
+aicent     = { workspace = true, features = ["std"] }
+rttp       = { workspace = true, features = ["std"] }
+rpki       = { workspace = true, features = ["std"] }
+zcmk       = { workspace = true, features = ["std"] }
+gtiot      = { workspace = true, features = ["std"] }
+aicent-net = { workspace = true, features = ["std"] }
 
 # Integrated Utilities for High-Fidelity Simulation
 anyhow  = { workspace = true }
@@ -67,6 +67,12 @@ serde   = { workspace = true, features = ["derive"] }
 tokio   = { workspace = true, features = ["full"] }
 rand    = { workspace = true } # For simulating MITM hijacks and chaos scenarios
 tracing = { workspace = true } # Industrial telemetry for sub-ms logs
+
+[features]
+default = ["std"]
+# [Standard v1.0] Standard library support for high-end demo environments.
+# Explicitly re-exporting 'std' for all foundational dependencies.
+std = ["serde/std", "anyhow/std", "aicent/std", "rttp/std", "rpki/std", "zcmk/std", "gtiot/std", "aicent-net/std", "tokio/full"]
 
 [dev-dependencies]
 # Performance benchmarking tools for sub-millisecond validation
