@@ -12,7 +12,7 @@ documentation = "https://github.com/Aicent-Stack/manifesto"
 rust-version.workspace = true
 
 # Keywords and categories for high-fidelity simulation and industrial audit
-keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "six-domain", "128-bit-atomic", "carrier-grade"]
+keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "six-domain", "128-bit-atomic", "simulation"]
 categories = ["development-tools", "simulation", "robotics", "network-programming"]
 
 # ====================================================================
@@ -57,13 +57,14 @@ path = "src/bin/aicent-net-demo.rs"
 # ====================================================================
 
 [dependencies]
-# Core Sovereign Domains - Fully Integrated via WorkspaceDNA
+# Core Sovereign Domains - Fully Integrated via Workspace DNA
+# Explicitly enabling 'std' for full reflex simulation
 aicent     = { workspace = true, features = ["std"] }
 rttp       = { workspace = true, features = ["std"] }
 rpki       = { workspace = true, features = ["std"] }
 zcmk       = { workspace = true, features = ["std"] }
 gtiot      = { workspace = true, features = ["std"] }
-aicent-net = { workspace = true, features = ["std"] }
+aicent-net = { workspace = true, optional = true, features = ["std"] }
 
 # --- Simulation Utilities & Telemetry ---
 anyhow  = { workspace = true }
@@ -77,7 +78,7 @@ tokio   = { workspace = true, features = ["full"] }
 default = ["std"]
 
 # [Standard v1.0] Standard library support for the unified organism.
-# 🛡️ FIX: Explicitly excluded 'smallvec/std' as it does not exist.
+# 🛡️ FIX: Explicitly excluded 'smallvec/std' to prevent feature propagation errors.
 # Re-exporting 'std' to internal organs to ensure full metabolic synchronization.
 std = [
     "aicent/std",
@@ -90,7 +91,7 @@ std = [
 ]
 
 # [RFC-006] Enable Hive-Mind simulation for collective intelligence testing.
-swarm-simulation = ["aicent-net/swarm-simulation"]
+swarm-simulation = ["aicent-net/std"]
 
 [dev-dependencies]
 # Performance benchmarking tools for sub-millisecond finality validation.
