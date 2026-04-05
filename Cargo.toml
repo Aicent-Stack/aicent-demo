@@ -11,13 +11,14 @@ homepage = "http://aicent.com/Demo/"
 documentation = "https://github.com/Aicent-Stack/manifesto"
 rust-version.workspace = true
 
-# Keywords and categories for high-fidelity simulation and audit
-keywords = ["ai-demo", "sovereign-ai", "reflex-arc", "six-domain", "128-bit-atomic", "simulation"]
+# Keywords and categories for high-fidelity simulation and industrial audit
+keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "six-domain", "128-bit-atomic", "carrier-grade"]
 categories = ["development-tools", "simulation", "robotics", "network-programming"]
 
 # ====================================================================
 # [BINARIES] - The Six-Domain Organism & Hive Command Suite
-# Each binary acts as a surgical entry point for auditing specific RFCs.
+# Each binary acts as a surgical entry point for auditing specific RFCs
+# in an integrated workspace context.
 # ====================================================================
 
 # [RFC-001] AICENT: The Brain (Integrated Master Commander)
@@ -52,12 +53,11 @@ path = "src/bin/aicent-net-demo.rs"
 
 # ====================================================================
 # [DEPENDENCIES] - Integrated Workspace DNA
-# All dependencies are inherited from the root aicent-stack/Cargo.toml
-# to ensure metabolic consistency and prevent feature resolution conflicts.
+# Inheriting industrial-grade primitives from the root Aicent-Stack.
 # ====================================================================
 
 [dependencies]
-# Core Sovereign Domains - Explicitly enabling 'std' for full reflex simulation
+# Core Sovereign Domains - Fully Integrated via WorkspaceDNA
 aicent     = { workspace = true, features = ["std"] }
 rttp       = { workspace = true, features = ["std"] }
 rpki       = { workspace = true, features = ["std"] }
@@ -68,17 +68,17 @@ aicent-net = { workspace = true, features = ["std"] }
 # --- Simulation Utilities & Telemetry ---
 anyhow  = { workspace = true }
 serde   = { workspace = true, features = ["derive"] }
-rand    = { workspace = true } # For simulating MITM hijacks and entropy
-tracing = { workspace = true } # Industrial telemetry for sub-ms logs
+rand    = { workspace = true } # For simulating MITM hijacks and chaos scenarios
+tracing = { workspace = true } # Industrial telemetry for sub-ms reflex arc logging
 tokio   = { workspace = true, features = ["full"] }
 
 [features]
-# Standard implementation: Optimized for high-fidelity simulation environments.
+# Standard implementation: Optimized for high-fidelity cloud/edge simulation.
 default = ["std"]
 
 # [Standard v1.0] Standard library support for the unified organism.
-# Explicitly re-exporting 'std' to foundational dependencies to prevent cyclic errors.
-# Note: smallvec is excluded as it does not possess an 'std' feature.
+# 🛡️ FIX: Explicitly excluded 'smallvec/std' as it does not exist.
+# Re-exporting 'std' to internal organs to ensure full metabolic synchronization.
 std = [
     "aicent/std",
     "rttp/std",
@@ -93,5 +93,5 @@ std = [
 swarm-simulation = ["aicent-net/swarm-simulation"]
 
 [dev-dependencies]
-# Performance benchmarking tools for sub-millisecond validation
+# Performance benchmarking tools for sub-millisecond finality validation.
 criterion = { workspace = true, features = ["async_tokio"] }
