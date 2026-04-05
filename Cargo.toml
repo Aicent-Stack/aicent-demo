@@ -1,6 +1,7 @@
 [package]
 name = "aicent-demo"
 description = "Aicent Stack: Integrated Simulation Suite for the Six-Domain Sovereign AI Organism."
+# Inheriting core protocol DNA from the imperial root workspace
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
@@ -8,41 +9,43 @@ license.workspace = true
 repository.workspace = true
 homepage = "http://aicent.com/Demo/"
 documentation = "https://github.com/Aicent-Stack/manifesto"
-keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "128-bit-atomic", "rfc-standard"]
-categories = ["development-tools", "simulation", "robotics", "network-programming"]
 rust-version.workspace = true
+
+# Keywords and categories for high-fidelity simulation and audit
+keywords = ["ai-demo", "sovereign-ai", "reflex-arc", "six-domain", "128-bit-atomic", "simulation"]
+categories = ["development-tools", "simulation", "robotics", "network-programming"]
 
 # ====================================================================
 # [BINARIES] - The Six-Domain Organism & Hive Command Suite
-# Each binary acts as a surgical entry point for auditing specific RFC protocols.
+# Each binary acts as a surgical entry point for auditing specific RFCs.
 # ====================================================================
 
-# [RFC-001] AICENT: The Brain (Master Commander - Full Organism Simulation)
+# [RFC-001] AICENT: The Brain (Integrated Master Commander)
 [[bin]]
 name = "aicent-organism"
 path = "src/bin/aicent-organism.rs"
 
-# [RFC-002] RTTP: The Nerves (Neural Pulse Transmission Demo)
+# [RFC-002] RTTP: The Nerves (Neural Pulse Audit)
 [[bin]]
 name = "rttp-demo"
 path = "src/bin/rttp-demo.rs"
 
-# [RFC-003] RPKI: The Immunity (Pathogen Isolation Demo)
+# [RFC-003] RPKI: The Immunity (Pathogen Isolation Audit)
 [[bin]]
 name = "rpki-demo"
 path = "src/bin/rpki-demo.rs"
 
-# [RFC-004] ZCMK: The Blood (Value Circulation Demo)
+# [RFC-004] ZCMK: The Blood (Metabolic Clearing Audit)
 [[bin]]
 name = "zcmk-demo"
 path = "src/bin/zcmk-demo.rs"
 
-# [RFC-005] GTIOT: The Body (Sensory-Motor Reflex Demo)
+# [RFC-005] GTIOT: The Body (Action-Collapse Audit)
 [[bin]]
 name = "gtiot-demo"
 path = "src/bin/gtiot-demo.rs"
 
-# [RFC-006] AICENT-NET: The Hive (Collective Intelligence Simulation)
+# [RFC-006] AICENT-NET: The Hive (Collective Intelligence Audit)
 [[bin]]
 name = "aicent-net-demo"
 path = "src/bin/aicent-net-demo.rs"
@@ -50,38 +53,45 @@ path = "src/bin/aicent-net-demo.rs"
 # ====================================================================
 # [DEPENDENCIES] - Integrated Workspace DNA
 # All dependencies are inherited from the root aicent-stack/Cargo.toml
-# to ensure metabolic consistency and prevent cyclic feature conflicts.
+# to ensure metabolic consistency and prevent feature resolution conflicts.
 # ====================================================================
 
 [dependencies]
-# --- Core Sovereign Domains ---
-# The demo suite requires access to all organs to simulate the full reflex arc.
-aicent     = { workspace = true }
-rttp       = { workspace = true }
-rpki       = { workspace = true }
-zcmk       = { workspace = true }
-gtiot      = { workspace = true }
-aicent-net = { workspace = true }
+# Core Sovereign Domains - Explicitly enabling 'std' for full reflex simulation
+aicent     = { workspace = true, features = ["std"] }
+rttp       = { workspace = true, features = ["std"] }
+rpki       = { workspace = true, features = ["std"] }
+zcmk       = { workspace = true, features = ["std"] }
+gtiot      = { workspace = true, features = ["std"] }
+aicent-net = { workspace = true, features = ["std"] }
 
-# --- Utilities & Telemetry ---
-anyhow = { workspace = true }
-rand   = { workspace = true }
-tokio  = { workspace = true }
-tracing = { workspace = true }
+# --- Simulation Utilities & Telemetry ---
+anyhow  = { workspace = true }
+serde   = { workspace = true, features = ["derive"] }
+rand    = { workspace = true } # For simulating MITM hijacks and entropy
+tracing = { workspace = true } # Industrial telemetry for sub-ms logs
+tokio   = { workspace = true, features = ["full"] }
 
 [features]
+# Standard implementation: Optimized for high-fidelity simulation environments.
 default = ["std"]
-# [Standard v1.0] Enable the standard library across the entire organism 
-# for high-fidelity cloud-based simulation.
+
+# [Standard v1.0] Standard library support for the unified organism.
+# Explicitly re-exporting 'std' to foundational dependencies to prevent cyclic errors.
+# Note: smallvec is excluded as it does not possess an 'std' feature.
 std = [
     "aicent/std",
     "rttp/std",
     "rpki/std",
     "zcmk/std",
     "gtiot/std",
-    "aicent-net/std"
+    "aicent-net/std",
+    "tokio/full"
 ]
 
+# [RFC-006] Enable Hive-Mind simulation for collective intelligence testing.
+swarm-simulation = ["aicent-net/swarm-simulation"]
+
 [dev-dependencies]
-# Inheriting criterion for sub-ms benchmarking validation
-criterion = { workspace = true }
+# Performance benchmarking tools for sub-millisecond validation
+criterion = { workspace = true, features = ["async_tokio"] }
