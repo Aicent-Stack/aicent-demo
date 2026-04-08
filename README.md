@@ -13,16 +13,12 @@
 
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🌿 [epoekie](http://epoekie.com)**
 
-# 🧬 [AICENT-DEMO] The Sovereign AI Organism
-
-**The first complete, indivisible AI nervous system: A closed-loop biological reflex arc from individual to hive.**
-
-![Aicent vs xAI](https://github.com/user-attachments/assets/c7497fa6-3d80-4d07-8ff0-bc436b106b2d)
-
-# 🧪 Aicent Demo: The Living Proof of Concept
+# 🧬🧪 Aicent Demo: The Living Proof of Concept
 
 > *"The latency-tax is dead. The middlemen are ghosts. Through the epoekie soul, the organism is breathing at wire speed across the global grid."*
 ---
+
+![Aicent vs xAI](https://github.com/user-attachments/assets/c7497fa6-3d80-4d07-8ff0-bc436b106b2d)
 
 ## 🏗️ The Sovereign AI Organism (MVO)
 
