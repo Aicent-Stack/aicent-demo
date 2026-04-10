@@ -62,7 +62,8 @@ path = "src/bin/aicent-net-demo.rs"
 # ====================================================================
 
 [dependencies]
-# --- The Sovereign Soul (Pillar 0) ---
+# 🛡️ THE SOVEREIGN LINK: Linking the Soul from the Global Registry
+# This crate is pulled directly from crates.io to verify planetary resonance.
 epoekie    = { workspace = true }
 
 # --- Core Sovereign Domains (Pillars 1-6) ---
@@ -86,9 +87,9 @@ tokio   = { workspace = true, features = ["full"] }
 default = ["std"]
 
 # [Standard v1.0] Standard library support for the unified organism.
-# Re-exporting 'std' to internal organs to ensure full metabolic synchronization.
+# 🛡️ FIX: Removed 'epoekie/std' to align with the Alpha placeholder on crates.io.
+# The soul layer is inherently lean and does not require explicit feature gating here.
 std = [
-    "epoekie/std",
     "aicent/std",
     "rttp/std",
     "rpki/std",
