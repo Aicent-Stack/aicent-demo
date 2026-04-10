@@ -1,6 +1,6 @@
 [package]
 name = "aicent-demo"
-description = "Aicent Stack: Integrated Simulation Suite for the Six-Domain Sovereign AI Organism."
+description = "Aicent Stack: Integrated Simulation Suite for the Seven-Pillar Sovereign AI Organism."
 # Inheriting core protocol DNA from the imperial root workspace
 version.workspace = true
 edition.workspace = true
@@ -12,14 +12,19 @@ documentation = "https://github.com/Aicent-Stack/manifesto"
 rust-version.workspace = true
 
 # Keywords and categories for high-fidelity simulation and industrial audit
-keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "six-domain", "128-bit-atomic", "simulation"]
+keywords = ["ai-simulation", "sovereign-ai", "reflex-arc", "seven-pillar", "128-bit-atomic"]
 categories = ["development-tools", "simulation", "robotics", "network-programming"]
 
 # ====================================================================
-# [BINARIES] - The Six-Domain Organism & Hive Command Suite
+# [BINARIES] - The Seven-Pillar Organism & Hive Command Suite
 # Each binary acts as a surgical entry point for auditing specific RFCs
-# in an integrated workspace context.
+# within the integrated epoekie-governed workspace context.
 # ====================================================================
+
+# [SOUL] EPOEKIE: The Sovereign Soul (Ethics Oracle Audit)
+[[bin]]
+name = "epoekie-demo"
+path = "src/bin/epoekie-demo.rs"
 
 # [RFC-001] AICENT: The Brain (Integrated Master Commander)
 [[bin]]
@@ -57,8 +62,11 @@ path = "src/bin/aicent-net-demo.rs"
 # ====================================================================
 
 [dependencies]
-# Core Sovereign Domains - Fully Integrated via Workspace DNA
-# Explicitly enabling 'std' for full reflex simulation
+# --- The Sovereign Soul (Pillar 0) ---
+epoekie    = { workspace = true }
+
+# --- Core Sovereign Domains (Pillars 1-6) ---
+# Fully Integrated via Workspace DNA with 'std' support for simulation.
 aicent     = { workspace = true, features = ["std"] }
 rttp       = { workspace = true, features = ["std"] }
 rpki       = { workspace = true, features = ["std"] }
@@ -69,8 +77,8 @@ aicent-net = { workspace = true, optional = true, features = ["std"] }
 # --- Simulation Utilities & Telemetry ---
 anyhow  = { workspace = true }
 serde   = { workspace = true, features = ["derive"] }
-rand    = { workspace = true } # For simulating MITM hijacks and chaos scenarios
-tracing = { workspace = true } # Industrial telemetry for sub-ms reflex arc logging
+rand    = { workspace = true } # For simulating MITM pathogens and chaos
+tracing = { workspace = true } # Industrial telemetry for sub-ms auditing
 tokio   = { workspace = true, features = ["full"] }
 
 [features]
@@ -78,9 +86,9 @@ tokio   = { workspace = true, features = ["full"] }
 default = ["std"]
 
 # [Standard v1.0] Standard library support for the unified organism.
-# 🛡️ FIX: Explicitly excluded 'smallvec/std' to prevent feature propagation errors.
 # Re-exporting 'std' to internal organs to ensure full metabolic synchronization.
 std = [
+    "epoekie/std",
     "aicent/std",
     "rttp/std",
     "rpki/std",
