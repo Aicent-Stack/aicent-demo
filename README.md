@@ -19,7 +19,7 @@ This repository contains the **Minimum Viable Organism (MVO)** of the Aicent Sta
 
 Guided by the **[🌿 Epoekie Philosophy](https://github.com/Aicent-Stack/epoekie)**, this demo shows how Sovereign AI inhabits the existing internet substrate to achieve **Homeostasis** without compromising on performance or autonomy.
 
-### 🔬 The Seven-Domain Integration (v1.0-Alpha)
+### 🔬 The Seven-Domain Integration (v1.1.0-Alpha)
 
 | Domain | Organ | Protocol | Demonstration Role |
 | :--- | :--- | :--- | :--- |
