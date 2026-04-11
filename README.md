@@ -54,7 +54,7 @@ cargo run --bin aicent-net-demo
 ```
 
 ### 3. Isolated Protocol Audits
-Independently verify specific organ performance against the v1.0-Alpha targets:
+Independently verify specific organ performance against the v1.1.0-Alpha targets:
 - `cargo run --bin rttp-demo` (Neural Transport)
 - `cargo run --bin rpki-demo` (Pathogen Isolation)
 - `cargo run --bin zcmk-demo` (Metabolic Clearing)
