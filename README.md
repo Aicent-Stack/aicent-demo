@@ -1,7 +1,7 @@
 # 🧬🧪 aicent-demo: The Sovereign Proof-of-Concept
 ## Full-Stack Lifecycle Demonstration & Performance Audit [v1.2.1-Alpha]
 
-[![Demo Vitality](https://github.com/Aicent-Stack/aicent-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-demo/actions)
+[![Organism Vitality & Protocol Audit](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml)
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Demonstration%20Active-brightgreen.svg" alt="Status">
   <img src="https://img.shields.io/badge/Version-v1.2.1--Alpha-blue.svg" alt="Version">
