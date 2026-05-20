@@ -29,7 +29,7 @@ This repository contains the official tools used to validate the breakthrough pe
 | :--- | :--- | :--- |
 | **Telemetry Drift** | > 1.0 ms | ✅ **12 ns** (Nanosecond Alignment) |
 | **Reflex Arc** | 11.0 ms | ✅ **106.868 µs** (Super-Radiant) |
-| **Visual Refresh** | 60 Hz | ✅ **120 Hz** (Radiant Telemetry) |
+| **Visual Refresh** | 60 Hz | ✅ **1200 Hz** (Radiant Telemetry) |
 | **Precision Depth** | 64-bit | ✅ **128-bit Absolute** |
 | **Suture Display** | Fragmented | ✅ **16 Pillars** (Total Resonance) |
 
