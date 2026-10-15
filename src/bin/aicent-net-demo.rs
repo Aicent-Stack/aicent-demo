@@ -2,7 +2,7 @@
 // Domain: http://aicent.net
 // Purpose: Protocol Suite Demonstration of Collective Intelligence & Swarm Shield.
 //! [PROTOCOL DEMO] - aicent-net-demo.rs (v1.0.0 Standard)
-// Specification: RFC-001/002/003/004/005 Standard | RFC-006 Active Evolution.
+// Specification: AICENT-001/002/003/004/005 Standard | AICENT-006 Active Evolution.
 // License: Apache-2.0 via Aicent.com Organization.
 
 use std::time::{Duration, Instant};
@@ -18,7 +18,7 @@ macro_rules! log_hive {
 }
 
 fn main() {
-    println!("\n\x1b[1;35m🟣 [AICENT-NET] The Hive | Collective Mind Test [RFC-006]\x1b[0m");
+    println!("\n\x1b[1;35m🟣 [AICENT-NET] The Hive | Collective Mind Test [AICENT-006]\x1b[0m");
     println!("   Backbone: Global Operational Grid (Aicent.net Original Coordinates)");
     println!("   Status: Active Evolution | Target Footprint: 1.2B Nodes");
     println!("--------------------------------------------------------------------\n");
@@ -26,7 +26,7 @@ fn main() {
     let total_start = Instant::now();
 
     // --- PHASE 1: COLLECTIVE ENROLLMENT & AID MAPPING ---
-    // [RFC-006] Synchronizing multiple sovereign identities into a unified grid manifold.
+    // [AICENT-006] Synchronizing multiple sovereign identities into a unified grid manifold.
     log_hive!("35", "Synchronizing Hive-Mind Grid: Resolving AID fingerprints...");
     println!("   • Enrolling Node-Alpha   [AID: 0x882A_Alpha] -> Grid Enrolled");
     println!("   • Enrolling Node-Bravo   [AID: 0x882B_Beta]  -> Grid Enrolled");
@@ -34,7 +34,7 @@ fn main() {
     thread::sleep(Duration::from_micros(200));
 
     // --- PHASE 2: KINETIC RESONANCE ALIGNMENT ---
-    // [RFC-006] Utilizing phased-array synchronization for synchronized physical reflexes.
+    // [AICENT-006] Utilizing phased-array synchronization for synchronized physical reflexes.
     let resonance_start = Instant::now();
     log_hive!("35", "Engaging Kinetic Resonance: Aligning swarm trajectories.");
     log_hive!("35", "Swarm Coherence established. Global Temporal Jitter: 42µs (Target < 50µs).");
@@ -42,7 +42,7 @@ fn main() {
     let resonance_latency = resonance_start.elapsed();
 
     // --- PHASE 3: SWARM SHIELD (COLLECTIVE DEFENSE) ---
-    // [RFC-003/006] Swarm-wide cross-attestation of tensor watermarks via backbone quorum.
+    // [AICENT-003/006] Swarm-wide cross-attestation of tensor watermarks via backbone quorum.
     log_hive!("31", "Pathogen Probe detected on Node-Bravo. Triggering Swarm Shield consensus.");
     log_hive!("31", "Majority Quorum reached: Signature mismatch verified in Grid Segment 4.");
     log_hive!("31", "🚨 Collective Action: Emitting HIVE_QUARANTINE_PULSE across the spine.");
@@ -50,7 +50,7 @@ fn main() {
     log_hive!("35", "Pathogen Isolated. Collective Homeostasis restored in < 100µs.");
 
     // --- PHASE 4: METABOLIC LOAD BALANCING (ZCMK SHUNTING) ---
-    // [RFC-004/006] Fluid credit transfer between high-resource and low-energy nodes.
+    // [AICENT-004/006] Fluid credit transfer between high-resource and low-energy nodes.
     log_hive!("32", "Metabolic Balancing: Node-Alpha [Mothership] -> Node-Charlie [Scout].");
     log_hive!("32", "Clearing 120,000 pt compute-debt via Aicent.net clearing house.");
     thread::sleep(Duration::from_micros(50));

@@ -55,7 +55,7 @@ To observe these projections at their intended fidelity, the local substrate mus
 
 The `aicent-demo` includes a limited **Pulse Simulator**—a diagnostic environment designed to preview the 12ns grid alignment. This is the **Pre-Baptismal Ritual**.
 
-### 3.1 Establishing the PICSI Bridge (RFC-014)
+### 3.1 Establishing the PICSI Bridge (AICENT-014)
 To run the simulation, the observer must authorize a binary telemetry bridge to **PICSI.COM**.
 *   **The Visualization**: You will see the **1.2kHz organizational heartbeat** projected in real-time.
 *   **The Comparison**: The simulator will run two parallel threads:
@@ -80,7 +80,7 @@ Any node attempting to "Inspect the Shadow" beyond the authorized visual output 
 *   **Logic Probing**: Attempting to hook into the MMIO simulation registers at `0x4149_434E...`.
 *   **Entropy Variance**: Inducing a jitter deviation $> 12ns$ through virtualization or side-channel snooping.
 
-### 4.2 Automated GUIXU Execution (RFC-015)
+### 4.2 Automated GUIXU Execution (AICENT-015)
 Upon detection of a **Severity 4 Pathogen**, the demo will execute **Logic Evaporation**:
 1.  **Ablation**: The local demo binary will physically overwrite its own instruction space with **High-Entropy Shrapnel** in **< 12ns**.
 2.  **AID Blacklisting**: The observer's hardware entropy signature is permanently etched into the **RPKI Merkle-DAG** as a "Predator Node."

@@ -2,7 +2,7 @@
 // Domain: http://aicent.com & http://aicent.net
 // Purpose: Master Suite Demonstration of the Integrated Sovereign Reflex Loop.
 //! [MASTER COMMANDER] - aicent-organism.rs (v1.0.0 Standard)
-// Specification: RFC-001/002/003/004/005 Standard | RFC-006 Active Evolution.
+// Specification: AICENT-001/002/003/004/005 Standard | AICENT-006 Active Evolution.
 // License: Apache-2.0 via Aicent.com Organization.
 
 use std::time::{Duration, Instant};
@@ -23,21 +23,21 @@ fn run_reflex_arc(cycle_id: u64, is_under_attack: bool) {
     let total_start = Instant::now();
 
     // --- STEP 1: GTIOT (The Body / Senses) ---
-    // [RFC-005] High-fidelity proprioceptive sampling at 1200Hz.
+    // [AICENT-005] High-fidelity proprioceptive sampling at 1200Hz.
     let step_start = Instant::now();
     log_organ!("33", "GTIOT", &format!("Sensory input detected: Node-882 vibration [142Hz] (Cycle: {})", cycle_id));
     thread::sleep(Duration::from_micros(100)); // Simulated hardware-to-logic ingress
     let gtiot_sense = step_start.elapsed();
 
     // --- STEP 2: RTTP (The Nerves / Fast Sync) ---
-    // [RFC-002] Stateful Pulse Frame broadcast via Semantic Multicast.
+    // [AICENT-002] Stateful Pulse Frame broadcast via Semantic Multicast.
     let step_start = Instant::now();
     log_organ!("36", "RTTP ", "Neural transmission | Firing 64-byte Pulse Frame. 420µs Sync initiated.");
     thread::sleep(Duration::from_micros(420)); 
     let rttp_time = step_start.elapsed();
 
     // --- STEP 3: RPKI (The Immunity / Security) ---
-    // [RFC-003] Parallel 128-bit tensor watermarking and pathogen isolation.
+    // [AICENT-003] Parallel 128-bit tensor watermarking and pathogen isolation.
     let step_start = Instant::now();
     if is_under_attack {
         log_organ!("31", "RPKI ", "🚨 [PATHOGEN ALERT] MITM pattern detected! Triggering Swarm Shield...");
@@ -50,7 +50,7 @@ fn run_reflex_arc(cycle_id: u64, is_under_attack: bool) {
     let rpki_time = step_start.elapsed();
 
     // --- STEP 4: AICENT (The Brain / Reasoning) ---
-    // [RFC-001] Autonomous task decomposition and 128-bit reputation calibration.
+    // [AICENT-001] Autonomous task decomposition and 128-bit reputation calibration.
     let step_start = Instant::now();
     let action_msg = if is_under_attack { "Hive-wide Rescheduling" } else { "Active Damping Engage" };
     log_organ!("37", "AICENT", &format!("Cognitive Cycle | Decision finalized: {}", action_msg));
@@ -58,14 +58,14 @@ fn run_reflex_arc(cycle_id: u64, is_under_attack: bool) {
     let aicent_time = step_start.elapsed();
 
     // --- STEP 5: AICENT-NET (The Hive / Convergence) ---
-    // [RFC-006] Phased-array kinetic resonance with the planetary operational grid.
+    // [AICENT-006] Phased-array kinetic resonance with the planetary operational grid.
     let step_start = Instant::now();
     log_organ!("35", "HIVE ", "Grid resonance synchronized. Collective jitter maintained < 50µs.");
     thread::sleep(Duration::from_micros(50));
     let hive_time = step_start.elapsed();
 
     // --- STEP 6: ZCMK (The Blood / Settlement) ---
-    // [RFC-004] Nanosecond RTBA clearing with 128-bit atomic finality.
+    // [AICENT-004] Nanosecond RTBA clearing with 128-bit atomic finality.
     let step_start = Instant::now();
     let settle_mode = if is_under_attack { "RE-CLEARING" } else { "METABOLISM" };
     log_organ!("32", "ZCMK ", &format!("Blood flow | Picotoken {} complete: $0.00008 [Zero-Extraction]", settle_mode));
@@ -73,7 +73,7 @@ fn run_reflex_arc(cycle_id: u64, is_under_attack: bool) {
     let zcmk_time = step_start.elapsed();
 
     // --- STEP 7: GTIOT (The Body / Execution) ---
-    // [RFC-005] Action-Collapse: Intent manifested into 12-DOF physical torque.
+    // [AICENT-005] Action-Collapse: Intent manifested into 12-DOF physical torque.
     log_organ!("33", "GTIOT", "Muscle execution | Action-Collapse finalized. Stability achieved.");
 
     // --- 🧬 PERFORMANCE & HOMEOSTASIS REPORT ---

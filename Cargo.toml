@@ -26,32 +26,32 @@ categories = ["development-tools", "simulation", "robotics", "network-programmin
 name = "epoekie-demo"
 path = "src/bin/epoekie-demo.rs"
 
-# [RFC-001] AICENT: The Brain (Integrated Master Commander)
+# [AICENT-001] AICENT: The Brain (Integrated Master Commander)
 [[bin]]
 name = "aicent-organism"
 path = "src/bin/aicent-organism.rs"
 
-# [RFC-002] RTTP: The Nerves (Neural Pulse Audit)
+# [AICENT-002] RTTP: The Nerves (Neural Pulse Audit)
 [[bin]]
 name = "rttp-demo"
 path = "src/bin/rttp-demo.rs"
 
-# [RFC-003] RPKI: The Immunity (Pathogen Isolation Audit)
+# [AICENT-003] RPKI: The Immunity (Pathogen Isolation Audit)
 [[bin]]
 name = "rpki-demo"
 path = "src/bin/rpki-demo.rs"
 
-# [RFC-004] ZCMK: The Blood (Metabolic Clearing Audit)
+# [AICENT-004] ZCMK: The Blood (Metabolic Clearing Audit)
 [[bin]]
 name = "zcmk-demo"
 path = "src/bin/zcmk-demo.rs"
 
-# [RFC-005] GTIOT: The Body (Action-Collapse Audit)
+# [AICENT-005] GTIOT: The Body (Action-Collapse Audit)
 [[bin]]
 name = "gtiot-demo"
 path = "src/bin/gtiot-demo.rs"
 
-# [RFC-006] AICENT-NET: The Hive (Collective Intelligence Audit)
+# [AICENT-006] AICENT-NET: The Hive (Collective Intelligence Audit)
 [[bin]]
 name = "aicent-net-demo"
 path = "src/bin/aicent-net-demo.rs"
@@ -99,7 +99,7 @@ std = [
     "tokio/full"
 ]
 
-# [RFC-006] Enable Hive-Mind simulation for collective intelligence testing.
+# [AICENT-006] Enable Hive-Mind simulation for collective intelligence testing.
 swarm-simulation = ["aicent-net/std"]
 
 [dev-dependencies]

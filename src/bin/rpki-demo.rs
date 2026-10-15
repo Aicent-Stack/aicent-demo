@@ -1,8 +1,8 @@
 // Aicent Stack | RPKI (Resource Public Key Infrastructure)
 // Domain: http://rpki.com
-// Purpose: Protocol Suite Demonstration of Parallel Immune Triage (RFC-003)
+// Purpose: Protocol Suite Demonstration of Parallel Immune Triage (AICENT-003)
 //! [PROTOCOL DEMO] - rpki-demo.rs (v1.0.0 Standard)
-// Specification: RFC-001/002/003/004/005 Standard | RFC-006 Active Evolution.
+// Specification: AICENT-001/002/003/004/005 Standard | AICENT-006 Active Evolution.
 // Licensed under Apache-2.0 via Aicent.com Organization.
 
 use std::time::{Duration, Instant};
@@ -19,13 +19,13 @@ macro_rules! log_immune {
     };
 }
 
-/// [RFC-003] Parallel Immune Scan Execution.
+/// [AICENT-003] Parallel Immune Scan Execution.
 /// Simulates the hardware-accelerated triage of an inbound neural pulse.
 fn execute_immune_scan(cycle_id: u32, is_malicious: bool) {
     let scan_start = Instant::now();
 
     // --- PHASE 1: PARALLEL PIPELINE INITIATION ---
-    // [RFC-003] SIMD-accelerated multi-lane verification of 64-byte Header.
+    // [AICENT-003] SIMD-accelerated multi-lane verification of 64-byte Header.
     log_immune!("31", &format!("Ingesting RTTP Pulse Frame [Header: 64-bytes] (Scan: {})", cycle_id));
     
     // Create a mock header and payload for the audit
@@ -33,17 +33,17 @@ fn execute_immune_scan(cycle_id: u32, is_malicious: bool) {
     let payload = vec![0u8; 1024];
 
     // --- PHASE 2: IN-BAND TENSOR WATERMARKING ---
-    // [RFC-003] Extracting cryptographic steganography from the tensor manifold.
+    // [AICENT-003] Extracting cryptographic steganography from the tensor manifold.
     log_immune!("31", "Extracting In-band Watermark via SIMD bit-slicing...");
     thread::sleep(Duration::from_micros(15)); // Simulated SIMD parallel speed
 
     // --- PHASE 3: IDENTITY & PROVENANCE ---
-    // [RFC-003] ROA-Chain (Route Origin Authorization) attestation.
+    // [AICENT-003] ROA-Chain (Route Origin Authorization) attestation.
     log_immune!("31", "Verifying AID Fingerprint against Merkle-DAG Root...");
     thread::sleep(Duration::from_micros(5));
 
     // --- PHASE 4: HIVE COLLECTIVE ATTESTATION ---
-    // [RFC-006] Synchronizing threat data with the Aicent.net Swarm Shield.
+    // [AICENT-006] Synchronizing threat data with the Aicent.net Swarm Shield.
     log_immune!("35", "Cross-attesting pulse with Aicent.net Hive [Swarm Shield Active].");
 
     // --- PHASE 5: TRIAGE & QUARANTINE ---
@@ -59,7 +59,7 @@ fn execute_immune_scan(cycle_id: u32, is_malicious: bool) {
 
     if is_malicious {
         log_immune!("31", "🚨 PATHOGEN DETECTED: MITM Hijack pattern identified in manifold.");
-        log_immune!("31", "Initiating RFC-003 QUARANTINE_PULSE (Priority 255)...");
+        log_immune!("31", "Initiating AICENT-003 QUARANTINE_PULSE (Priority 255)...");
         thread::sleep(Duration::from_micros(850)); // Target isolation/re-routing latency
         log_immune!("31", "🛡️  Node-882 surgically isolated. Neural spine integrity restored.");
     } else {
@@ -75,7 +75,7 @@ fn execute_immune_scan(cycle_id: u32, is_malicious: bool) {
 
 fn main() {
     println!("\n\x1b[1;31m🛡️ [RPKI IMMUNITY] Protocol v1.0.0 - Active Bio-Defense Active\x1b[0m");
-    println!("   Focus: Zero-Trust Telemetry | In-band Watermarking | Swarm Shield [RFC-006]");
+    println!("   Focus: Zero-Trust Telemetry | In-band Watermarking | Swarm Shield [AICENT-006]");
     println!("--------------------------------------------------------------------\n");
 
     // Scenario 1: Normal Homeostasis (Standard Operation)

@@ -1,8 +1,8 @@
 // Aicent Stack | GTIOT (Global Trusted IoT)
 // Domain: http://gtiot.com
-// Purpose: Protocol Suite Demonstration of Action-Collapse & Proprioceptive Sync (RFC-005)
+// Purpose: Protocol Suite Demonstration of Action-Collapse & Proprioceptive Sync (AICENT-005)
 //! [PROTOCOL DEMO] - gtiot-demo.rs (v1.0.0 Standard)
-// Specification: RFC-001/002/003/004/005 Standard | RFC-006 Active Evolution.
+// Specification: AICENT-001/002/003/004/005 Standard | AICENT-006 Active Evolution.
 // License: Apache-2.0 via Aicent.com Organization.
 
 use std::time::{Duration, Instant};
@@ -19,20 +19,20 @@ macro_rules! log_body {
 
 fn main() {
     println!("\n\x1b[1;33m🦾 [GTIOT BODY] Protocol v1.0.0 - Embodied Execution Active\x1b[0m");
-    println!("   Focus: 1.2 kHz Reflex Loops | Action-Collapse | Kinetic Resonance [RFC-006]");
+    println!("   Focus: 1.2 kHz Reflex Loops | Action-Collapse | Kinetic Resonance [AICENT-006]");
     println!("--------------------------------------------------------------------\n");
 
     let total_start = Instant::now();
 
     // --- PHASE 1: SENSORY INGRESS & FUSION ---
-    // [RFC-005] Capturing high-fidelity physical world primitives.
+    // [AICENT-005] Capturing high-fidelity physical world primitives.
     log_body!("33", "Initializing Proprioceptive Loop on Node-882 [1200 Hz Sampling].");
     log_body!("33", "Ingesting multi-modal stream: IMU + Vibration + Thermodynamic Manifold.");
     thread::sleep(Duration::from_micros(150));
     log_body!("33", "On-device NPU Fusion complete. Semantic fingerprint generated for Brain.");
 
     // --- PHASE 2: CROSS-DOMAIN GATEKEEPING ---
-    // [RFC-003/004] Physical actuators remain gated until verified.
+    // [AICENT-003/004] Physical actuators remain gated until verified.
     log_body!("31", "RPKI Guard: Verifying inbound motor command via Tensor Watermark...");
     thread::sleep(Duration::from_micros(20)); // SIMD parallel speed
     log_body!("31", "Immune clearance verified ✅. Hardware kill-switch disengaged.");
@@ -41,7 +41,7 @@ fn main() {
     log_body!("32", "Circulatory check complete. Resource allocation confirmed.");
 
     // --- PHASE 3: ACTION-COLLAPSE (AAL) ---
-    // [RFC-005] Mathematical reduction of symbolic intent into hardware primitives.
+    // [AICENT-005] Mathematical reduction of symbolic intent into hardware primitives.
     let collapse_start = Instant::now();
     log_body!("33", "Executing Action-Collapse: Brain Intent -> AAL Motor Primitives.");
     log_body!("33", "Applying PID-correction via local Shadow-State projection.");
@@ -49,12 +49,12 @@ fn main() {
     let collapse_time = collapse_start.elapsed();
     log_body!("33", "Physical Actuation Engaged: Damping torque applied to Servo Cluster #4.");
 
-    // --- PHASE 4: HIVE KINETIC ALIGNMENT (RFC-006) ---
+    // --- PHASE 4: HIVE KINETIC ALIGNMENT (AICENT-006) ---
     // Aligning local motion with the global Hive resonance vector.
     log_body!("35", "Collective Sync: Aligning trajectory with Aicent.net Hive [Jitter < 50µs].");
 
     // --- PHASE 5: SHADOW-STATE SYNCHRONIZATION ---
-    // [RFC-005] Maintaining 1:1 parity between digital intent and reality.
+    // [AICENT-005] Maintaining 1:1 parity between digital intent and reality.
     log_body!("33", "Updating local Shadow Twin... [Parity Alignment: 99.998%].");
     log_body!("33", "Broadcasting shadow-delta back to Brain via RTTP nerves.");
     thread::sleep(Duration::from_micros(30));

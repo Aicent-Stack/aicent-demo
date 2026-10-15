@@ -1,8 +1,8 @@
 // Aicent Stack | RTTP (Real-Time Transfer Protocol)
 // Domain: http://rttp.com
-// Purpose: Protocol Suite Demonstration of Stateful Semantic Multicast (RFC-002)
+// Purpose: Protocol Suite Demonstration of Stateful Semantic Multicast (AICENT-002)
 //! [PROTOCOL DEMO] - rttp-demo.rs (v1.0.0 Standard)
-// Specification: RFC-001/002/003/004/005 Standard | RFC-006 Active Evolution.
+// Specification: AICENT-001/002/003/004/005 Standard | AICENT-006 Active Evolution.
 // Licensed under Apache-2.0 via Aicent.com Organization.
 
 use std::time::{Duration, Instant};
@@ -26,18 +26,18 @@ fn main() {
     let total_start = Instant::now();
 
     // --- PHASE 1: PULSE GENERATION ---
-    // [RFC-002] Ingesting raw sensory primitives from GTIOT (RFC-005)
+    // [AICENT-002] Ingesting raw sensory primitives from GTIOT (AICENT-005)
     log_nerve!("36", "Ingesting sensory primitive from Node-882_Alpha...");
     thread::sleep(Duration::from_micros(100));
 
     // --- PHASE 2: CONTEXT SNAPSHOT SHARDING ---
-    // [RFC-002] Sharding Transformer KV-Caches into atomic 64-byte micro-pulses.
+    // [AICENT-002] Sharding Transformer KV-Caches into atomic 64-byte micro-pulses.
     log_nerve!("36", "Executing Context Snapshot Sharding (Delta-compression active).");
     log_nerve!("36", "Applying RoPE-aware sparse tensor format: 84.2% bandwidth reduction.");
     thread::sleep(Duration::from_micros(120));
 
     // --- PHASE 3: SEMANTIC AFFINITY ROUTING ---
-    // [RFC-002] Routing via "Meaning" instead of legacy IP coordinates.
+    // [AICENT-002] Routing via "Meaning" instead of legacy IP coordinates.
     log_nerve!("36", "Calculating Semantic Affinity Vector [256-dim manifold embedding].");
     log_nerve!("36", "Establishing Multicast Spine: Targeting 10,000+ nodes in affinity group.");
     
@@ -58,12 +58,12 @@ fn main() {
     log_nerve!("36", "KV-Cache Pulse synchronized across planetary grid with zero-copy dispatch.");
 
     // --- PHASE 5: JITTER ABSORPTION ---
-    // [RFC-002] Predictive dead-reckoning to eliminate retransmission latency.
+    // [AICENT-002] Predictive dead-reckoning to eliminate retransmission latency.
     log_nerve!("36", "Analyzing backbone jitter... [Detected: 85µs drift].");
     log_nerve!("36", "Engaging Predictive Dead-reckoning (4th-order polynomial extrapolation).");
     log_nerve!("36", "Jitter absorbed. Neural continuity maintained at 99.99% fidelity.");
 
-    // --- PHASE 6: HIVE RESONANCE (RFC-006 Integration) ---
+    // --- PHASE 6: HIVE RESONANCE (AICENT-006 Integration) ---
     // Aligning the nerve impulse with the Aicent.net Global Operational Grid.
     log_nerve!("35", "Syncing with Aicent.net Hive: Kinetic Resonance locked (Jitter < 50µs).");
 
@@ -77,7 +77,7 @@ fn main() {
     println!("⏱️  Pulse Transmission Latency: {:?}", total_duration);
     println!("📊 Target KPI: 420µs KV-Sync | Result: {:?}", sync_time);
     println!("📡 Bandwidth Efficiency:      84.2% Savings via Semantic Sharding");
-    println!("🔄 Grid Resonance:            RFC-006 Hive Alignment Verified");
+    println!("🔄 Grid Resonance:            AICENT-006 Hive Alignment Verified");
     println!("✅ Conclusion: Neural Reflex Arc within Standard Homeostasis parameters.");
     println!("   Protocol Version: {} ", PROTOCOL_VERSION);
     println!("\x1b[1;36m=======================================================================\x1b[0m\n");

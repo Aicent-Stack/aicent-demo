@@ -1,8 +1,8 @@
 // Aicent Stack | ZCMK (Zero-Commission Marketplace & Knot)
 // Domain: http://zcmk.com
-// Purpose: Protocol Suite Demonstration of RTBA Matching & Picotoken Clearing (RFC-004)
+// Purpose: Protocol Suite Demonstration of RTBA Matching & Picotoken Clearing (AICENT-004)
 //! [PROTOCOL DEMO] - zcmk-demo.rs (v1.0.0 Standard)
-// Specification: RFC-001/002/003/004/005 Standard | RFC-006 Active Evolution.
+// Specification: AICENT-001/002/003/004/005 Standard | AICENT-006 Active Evolution.
 // License: Apache-2.0 via Aicent.com Organization.
 
 use std::time::{Duration, Instant};
@@ -25,13 +25,13 @@ fn main() {
     let total_start = Instant::now();
 
     // --- PHASE 1: DEMAND EMISSION ---
-    // [RFC-004] Brain emits a Task Primitive with an embedded ZCMK bid.
+    // [AICENT-004] Brain emits a Task Primitive with an embedded ZCMK bid.
     log_blood!("32", "Ingesting Compute Demand: Task-882 requesting 5000 GFLOPS.");
     log_blood!("32", "Embedded Bid: 85,000,000,000 picotokens (pt) detected in Pulse Header.");
     thread::sleep(Duration::from_micros(100));
 
     // --- PHASE 2: GLOBAL SUPPLY SCANNING ---
-    // [RFC-006] Scanning the Aicent.net Hive for optimal resource manifold alignment.
+    // [AICENT-006] Scanning the Aicent.net Hive for optimal resource manifold alignment.
     log_blood!("32", "Scanning Global Supply Manifold: 42,000+ nodes verified via RPKI.");
     println!("   • Node-Tokyo-01    | 12000 GFLOPS | Affinity: 0.88");
     println!("   • Node-Berlin-03   | 6500  GFLOPS | Affinity: 0.99 [OPTIMAL MATCH]");
@@ -39,20 +39,20 @@ fn main() {
     thread::sleep(Duration::from_micros(150));
 
     // --- PHASE 3: RTBA MATCHING ENGINE ---
-    // [RFC-004] Executing SIMD-vectorized scoring in <50ns resolution.
+    // [AICENT-004] Executing SIMD-vectorized scoring in <50ns resolution.
     let matching_start = Instant::now();
     log_blood!("32", "Executing RTBA Score: (Affinity × PriceDelta) / (Latency + Energy).");
     log_blood!("32", "Match Finalized: Node-Berlin-03 selected [Score: 0.9982].");
     let matching_time = matching_start.elapsed();
 
     // --- PHASE 4: ATOMIC MICRO-CLEARING ---
-    // [RFC-004] Achieving Reflex-Cycle Finality: Value transfer is part of the pulse.
+    // [AICENT-004] Achieving Reflex-Cycle Finality: Value transfer is part of the pulse.
     log_blood!("32", "Initiating Atomic Clearing: Zero-Commission peer-to-peer transfer.");
     log_blood!("32", "Shunting 85,000,000,000 pt from Task-Vault to Executor-Vault.");
     thread::sleep(Duration::from_micros(50));
     log_blood!("32", "Reflex-Cycle Finality Reached ✅ | Middleman-Tax: 0.0000%.");
 
-    // --- PHASE 5: HIVE METABOLIC SHUNTING (RFC-006 Integration) ---
+    // --- PHASE 5: HIVE METABOLIC SHUNTING (AICENT-006 Integration) ---
     // Redistributing value to maintain global grid stability across Aicent.net.
     log_blood!("35", "Collective Sync: Shunting 1% value to Aicent.net Hive Credit Pool.");
 
