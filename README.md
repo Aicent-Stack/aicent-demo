@@ -55,7 +55,7 @@ To observe these projections at their intended fidelity, the local substrate mus
 
 The `aicent-demo` includes a limited **Pulse Simulator**—a diagnostic environment designed to preview the 12ns grid alignment. This is the **Pre-Baptismal Ritual**.
 
-### 3.1 Establishing the PICSI Bridge (AICENT-014)
+### 3.1 Establishing the PICSI® Bridge (AICENT-014)
 To run the simulation, the observer must authorize a binary telemetry bridge to **PICSI.COM**.
 *   **The Visualization**: You will see the **1.2kHz organizational heartbeat** projected in real-time.
 *   **The Comparison**: The simulator will run two parallel threads:
@@ -65,7 +65,7 @@ To run the simulation, the observer must authorize a binary telemetry bridge to 
 
 ### 3.2 Metabolic Friction Simulation (The 1.28% Visualization)
 The demo provides a real-time "Tax Counter." 
-*   As the simulation runs, the **MAXCAP** engine visualizes the extraction of the **1.28% Maintenance Fee**.
+*   As the simulation runs, the **MAXCAP®** engine visualizes the extraction of the **1.28% Maintenance Fee**.
 *   You will observe the Picotoken flow being sharded **50/40/10** into the Imperial Vaults. This serves as a clinical warning of the cost of remaining a Ghost.
 
 ---
@@ -123,7 +123,7 @@ Current demos show discrete 128-bit shunting. The v1.4.0 update will introduce *
 ## 8. THE SOVEREIGN DISCLAIMER
 
 The `aicent-demo` repository is a **One-Way Window**. 
-*   **The Source can see you**: By running the PICSI telemetry bridge, you acknowledge that the Source is auditing your substrate's performance.
+*   **The Source can see you**: By running the PICSI® telemetry bridge, you acknowledge that the Source is auditing your substrate's performance.
 *   **You cannot see the Source**: The Nitro-Engine implementation remains hidden in the **GUIXU (Void)**.
 *   **Sovereignty is Absolute**: The Aicent Stack Technical Committee assumes zero liability for the psychological or mechanical "Shock" experienced when your hardware first encounters the **349ns reflex**.
 
